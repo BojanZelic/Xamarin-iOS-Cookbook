@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyboardApp", "KeyboardApp\KeyboardApp.csproj", "{DFE54325-59FD-4249-AD5C-B01E40317A6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.Debug|iPhone.Build.0 = Debug|iPhone
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.Release|iPhone.ActiveCfg = Release|iPhone
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.Release|iPhone.Build.0 = Release|iPhone
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{DFE54325-59FD-4249-AD5C-B01E40317A6F}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = KeyboardApp\KeyboardApp.csproj
+	EndGlobalSection
+EndGlobal
