@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgressApp", "ProgressApp\ProgressApp.csproj", "{DE3BB813-368D-484A-A67B-208B23FA7185}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.Debug|iPhone.Build.0 = Debug|iPhone
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.Release|iPhone.ActiveCfg = Release|iPhone
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.Release|iPhone.Build.0 = Release|iPhone
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{DE3BB813-368D-484A-A67B-208B23FA7185}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ProgressApp\ProgressApp.csproj
+	EndGlobalSection
+EndGlobal
