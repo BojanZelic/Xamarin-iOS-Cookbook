@@ -103,10 +103,15 @@
     <Compile Include="SettingsController.designer.cs">
       <DependentUpon>SettingsController.cs</DependentUpon>
     </Compile>
+    <Compile Include="ModalController.cs" />
+    <Compile Include="ModalController.designer.cs">
+      <DependentUpon>ModalController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
   <ItemGroup>
     <InterfaceDefinition Include="MainViewController.xib" />
     <InterfaceDefinition Include="SettingsController.xib" />
+    <InterfaceDefinition Include="ModalController.xib" />
   </ItemGroup>
 </Project>

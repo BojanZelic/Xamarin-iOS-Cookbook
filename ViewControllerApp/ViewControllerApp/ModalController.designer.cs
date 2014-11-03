@@ -9,17 +9,17 @@ using System.CodeDom.Compiler;
 
 namespace ViewControllerApp
 {
-	[Register ("MainViewController")]
-	partial class MainViewController
+	[Register ("ModalController")]
+	partial class ModalController
 	{
 		[Outlet]
-		MonoTouch.UIKit.UIButton presentButton { get; set; }
+		MonoTouch.UIKit.UIButton dismissButton { get; set; }
 		
 		void ReleaseDesignerOutlets ()
 		{
-			if (presentButton != null) {
-				presentButton.Dispose ();
-				presentButton = null;
+			if (dismissButton != null) {
+				dismissButton.Dispose ();
+				dismissButton = null;
 			}
 		}
 	}

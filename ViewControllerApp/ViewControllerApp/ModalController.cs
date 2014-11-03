@@ -7,9 +7,9 @@ using MonoTouch.UIKit;
 
 namespace ViewControllerApp
 {
-	public partial class MainViewController : UIViewController
+	public partial class ModalController : UIViewController
 	{
-		public MainViewController () : base ("MainViewController", null)
+		public ModalController () : base ("ModalController", null)
 		{
 		}
 
@@ -26,12 +26,8 @@ namespace ViewControllerApp
 			base.ViewDidLoad ();
 			
 			// Perform any additional setup after loading the view, typically from a nib.
-			this.View.BackgroundColor = UIColor.Blue;
-			this.Title = "Main";
-
-			this.presentButton.TouchUpInside += async (object sender, EventArgs e) => {
-				ModalController modalController = new ModalController();
-				await this.PresentViewControllerAsync(modalController, true);
+			this.dismissButton.TouchUpInside += async (object sender, EventArgs e) => {
+				this.DismissViewControllerAsync(true);
 			};
 		}
 	}
